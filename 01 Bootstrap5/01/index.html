@@ -61,65 +61,81 @@
         <div class="col" style="border: 1px solid gray">.col</div>
       </div>
       <br />
-      <div class="container">
-        <h4 class="h5 text-muted mt-3">Row</h4>
-        <p>Grid with vertical alignment on .row using flex utilities</p>
+    </div>
+
+    <div class="container">
+      <h4 class="h5 text-muted mt-3">Row</h4>
+      <p>Grid with vertical alignment on .row using flex utilities</p>
+    </div>
+    <div class="container" data-example="row-height">
+      <div class="row align-items-start">
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
       </div>
-      <div class="container" data-example="row-height">
-        <div class="row align-items-start">
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-        </div>
-        <div class="row align-items-end">
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-          <div class="col" style="border: 1px solid blue">.col</div>
-        </div>
+      <div class="row align-items-center">
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
       </div>
-      <div class="container">
-        <h4 class="h5 text-muted mt-3">Column</h4>
-        <p>Grid with vertical alignment on .col using flex utilities</p>
+      <div class="row align-items-end">
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
+        <div class="col" style="border: 1px solid blue">.col</div>
       </div>
-      <div class="container" data-example="row-height">
-        <div class="row" style="height: 78px">
-          <div class="col align-self-start" style="border: 1px solid red">.col .align-self-start</div>
-          <div class="col align-self-center" style="border: 1px solid red">.col .align-self-center</div>
-          <div class="col align-self-end" style="border: 1px solid red">.col .align-self-end</div>
-        </div>
+    </div>
+    <div class="container">
+      <h4 class="h5 text-muted mt-3">Column</h4>
+      <p>Grid with vertical alignment on .col using flex utilities</p>
+    </div>
+    <div class="container" data-example="row-height">
+      <div class="row" style="height: 78px">
+        <div class="col align-self-start" style="border: 1px solid red">.col .align-self-start</div>
+        <div class="col align-self-center" style="border: 1px solid red">.col .align-self-center</div>
+        <div class="col align-self-end" style="border: 1px solid red">.col .align-self-end</div>
       </div>
-      <br />
-      <h4 class="h5 text-muted mt-3 container">All breakpoints</h4>
-      <p>Grid with column break using sizing utility class</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="w-100"></div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-        </div>
+    </div>
+    <br />
+    <h4 class="h5 text-muted mt-3 container">All breakpoints</h4>
+    <p>Grid with column break using sizing utility class</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="w-100"></div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
       </div>
-      <h4 class="h5 text-muted mt-3 container">Responsive</h4>
-      <p>Grid with responsive column break using sizing and display utility classes</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="w-100 d-none d-lg-block" style="border: 1px solid green; height: 10px"></div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-          <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
-        </div>
+    </div>
+    <h4 class="h5 text-muted mt-3 container">Responsive</h4>
+    <p>Grid with responsive column break using sizing and display utility classes</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="w-100 d-none d-lg-block" style="border: 1px solid green; height: 10px"></div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3" style="border: 1px solid green">.col-6 .col-sm-3</div>
       </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="col-1" style="border: 1px solid goldenrod">8.333333%</div>
+      <div class="col-2" style="border: 1px solid goldenrod">16.666667%</div>
+      <div class="col-3" style="border: 1px solid goldenrod">25%</div>
+      <div class="col-4" style="border: 1px solid goldenrod">33.333333%</div>
+      <div class="col-5" style="border: 1px solid goldenrod">41.666667%</div>
+      <div class="col-6" style="border: 1px solid goldenrod">50%</div>
+      <div class="col-7" style="border: 1px solid goldenrod">58.333333%</div>
+      <div class="col-8" style="border: 1px solid goldenrod">66.666667%</div>
+      <div class="col-9" style="border: 1px solid goldenrod">75%</div>
+      <div class="col-10" style="border: 1px solid goldenrod">83.333333%</div>
+      <div class="col-11" style="border: 1px solid goldenrod">91.666667%</div>
+      <div class="col-12" style="border: 1px solid goldenrod">100%</div>
     </div>
     <br /><br /><br />
   </body>
