@@ -80,6 +80,49 @@
       </div>
       <br />
 
+      <label for="inputText" class="form-label">Text input label</label>
+      <input type="text" class="form-control" placeholder="Text input placeholder" id="inputText" />
+
+      <br />
+
+      <label for="textarea" class="form-label">Textarea</label>
+      <textarea class="form-control" id="textarea" rows="5" placeholder="Write your message here."></textarea>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Default</h4>
+      <label class="form-label" for="inputFile">Default file input label</label>
+      <input type="file" class="form-control" id="inputFile" />
+      <h4 class="h5 text-muted mt-3">Multiple</h4>
+      <label class="form-label" for="inputFileMultiple">Multiple file input label</label>
+      <input type="file" class="form-control" id="inputFileMultiple" multiple="" />
+      <h4 class="h5 text-muted mt-3">Disabled</h4>
+      <label class="form-label" for="inputFileDisabled">Disabled file input label</label>
+      <input type="file" class="form-control" id="inputFileDisabled" disabled="" />
+      <h4 class="h5 text-muted mt-3">Small</h4>
+      <label class="form-label" for="inputFileSmall">Small file input label</label>
+      <input type="file" class="form-control form-control-sm" id="inputFileSmall" />
+      <h4 class="h5 text-muted mt-3">Large</h4>
+      <label class="form-label" for="inputFileLarge">Large file input label</label>
+      <input type="file" class="form-control form-control-lg" id="inputFileLarge" />
+      <br />
+
+      <label for="inputColor" class="form-label">Color input label</label>
+      <input type="color" class="form-control form-control-color" id="inputColor" value="#7952b3" title="Choose color" />
+      <br />
+
+      <label for="datalist" class="form-label">Datalist label</label>
+      <input class="form-control" list="datalistOptions" id="datalist" placeholder="Type to search..." />
+      <datalist id="datalistOptions">
+        <option value="Bootstrap"></option>
+        <option value="Foundation"></option>
+        <option value="Semantic UI"></option>
+        <option value="Bulma"></option>
+        <option value="Materialize"></option>
+      </datalist>
+
+      <br />
+
       <br /><br /><br />
     </div>
   </body>
