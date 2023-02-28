@@ -157,6 +157,124 @@
         <option value="5">Option five</option>
       </select>
 
+      <br />
+      <h2>Checks and radios</h2>
+
+      <h4 class="h5 text-muted mt-3">Default</h4>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkDefault1" />
+        <label class="form-check-label" for="checkDefault1">Default checkbox</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkDefault2" checked="" />
+        <label class="form-check-label" for="checkDefault2">Checked checkbox</label>
+      </div>
+      <h4 class="h5 text-muted mt-3">Indeterminate</h4>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkIndeterminate" />
+        <label class="form-check-label" for="checkIndeterminate">Indeterminate checkbox</label>
+        <script>
+          var checkbox = document.getElementById("checkIndeterminate");
+          checkbox.indeterminate = true;
+        </script>
+      </div>
+      <h4 class="h5 text-muted mt-3">Disabled</h4>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkDisabled1" disabled="" />
+        <label class="form-check-label" for="checkDisabled1">Disabled default checkbox</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkDisabled2" checked="" disabled="" />
+        <label class="form-check-label" for="checkDisabled2">Disabled checked checkbox</label>
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Default</h4>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="radioDefault" id="radioDefault1" />
+        <label class="form-check-label" for="radioDefault1">Default radio</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="radioDefault" id="radioDefault2" checked="" />
+        <label class="form-check-label" for="radioDefault2">Checked radio</label>
+      </div>
+      <h4 class="h5 text-muted mt-3">Disabled</h4>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="radioDisabled" id="radioDisabled1" disabled="" />
+        <label class="form-check-label" for="radioDisabled1">Disabled default radio</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="radioDisabled" id="radioDisabled2" checked="" disabled="" />
+        <label class="form-check-label" for="radioDisabled2">Disabled checked radio</label>
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Default</h4>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="switchDefault1" />
+        <label class="form-check-label" for="switchDefault1">Default switch</label>
+      </div>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="switchDefault2" checked="" />
+        <label class="form-check-label" for="switchDefault2">Checked switch</label>
+      </div>
+      <h4 class="h5 text-muted mt-3">Disabled</h4>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="switchDisabled1" disabled="" />
+        <label class="form-check-label" for="switchDisabled1">Disabled default switch</label>
+      </div>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="switchDisabled2" checked="" disabled="" />
+        <label class="form-check-label" for="switchDisabled2">Disabled checked switch</label>
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Checkbox</h4>
+      <input type="checkbox" class="btn-check" id="checkToggleButton1" autocomplete="off" />
+      <label class="btn btn-secondary" for="checkToggleButton1">Checkbox</label>
+      <h4 class="h5 text-muted mt-3">Radio</h4>
+      <div class="btn-group">
+        <input type="radio" class="btn-check" name="radioToggleButton" id="radioToggleButton1" autocomplete="off" />
+        <label class="btn btn-secondary" for="radioToggleButton1">Radio 1</label>
+        <input type="radio" class="btn-check" name="radioToggleButton" id="radioToggleButton2" autocomplete="off" />
+        <label class="btn btn-secondary" for="radioToggleButton2">Radio 2</label>
+        <input type="radio" class="btn-check" name="radioToggleButton" id="radioToggleButton3" autocomplete="off" />
+        <label class="btn btn-secondary" for="radioToggleButton3">Radio 3</label>
+      </div>
+      <h4 class="h5 text-muted mt-3">Outlined</h4>
+      <input type="checkbox" class="btn-check" id="checkToggleButtonOutlined1" autocomplete="off" />
+      <label class="btn btn-outline-secondary" for="checkToggleButtonOutlined1">Checkbox</label>
+      <br /><br />
+      <div class="btn-group">
+        <input
+          type="radio"
+          class="btn-check"
+          name="radioToggleButtonOutlined"
+          id="radioToggleButtonOutlined1"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-primary" for="radioToggleButtonOutlined1">Radio 1</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="radioToggleButtonOutlined"
+          id="radioToggleButtonOutlined2"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-success" for="radioToggleButtonOutlined2">Radio 2</label>
+        <input
+          type="radio"
+          class="btn-check"
+          name="radioToggleButtonOutlined"
+          id="radioToggleButtonOutlined3"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-info" for="radioToggleButtonOutlined3">Radio 3</label>
+      </div>
+
       <br /><br /><br />
     </div>
   </body>
