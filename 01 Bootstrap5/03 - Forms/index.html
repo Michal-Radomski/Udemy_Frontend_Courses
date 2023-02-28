@@ -281,6 +281,146 @@
       <label for="inputRangeSteps" class="form-label">Range input label</label>
       <input type="range" class="form-range" id="inputRangeSteps" min="0" max="10" step="0.5" />
 
+      <br /><br />
+      <h2>Input Groups</h2>
+
+      <h4 class="h5 text-muted mt-3">Before</h4>
+      <div class="input-group">
+        <span class="input-group-text" id="before">#</span>
+        <input type="text" class="form-control" placeholder="Hashtag" aria-label="Hashtag" aria-describedby="before" />
+      </div>
+      <h4 class="h5 text-muted mt-3">After</h4>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="after" />
+        <span class="input-group-text" id="after">@example.com</span>
+      </div>
+      <h4 class="h5 text-muted mt-3">Before and after</h4>
+      <div class="input-group">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to nearest dollar)" />
+        <span class="input-group-text">.00</span>
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Check</h4>
+      <div class="input-group">
+        <span class="input-group-text">
+          <input type="checkbox" class="form-check-input" aria-label="Checkbox for text input" />
+        </span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Text input with checkbox"
+          aria-label="Text input with checkbox"
+        />
+      </div>
+      <h4 class="h5 text-muted mt-3">Radio</h4>
+      <div class="input-group">
+        <span class="input-group-text">
+          <input type="radio" class="form-check-input" aria-label="Radio button for text input" />
+        </span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Text input with radio button"
+          aria-label="Text input with radio button"
+        />
+      </div>
+
+      <br />
+
+      <div class="input-group">
+        <span class="input-group-text">First and last name</span>
+        <input type="text" class="form-control" aria-label="First name" />
+        <input type="text" class="form-control" aria-label="Last name" />
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Before</h4>
+      <div class="input-group">
+        <span class="input-group-text">1</span>
+        <span class="input-group-text">2</span>
+        <span class="input-group-text">3</span>
+        <input type="text" class="form-control" aria-label="Multiple text" />
+      </div>
+      <h4 class="h5 text-muted mt-3">After</h4>
+      <div class="input-group">
+        <input type="text" class="form-control" aria-label="Multiple text" />
+        <span class="input-group-text">1</span>
+        <span class="input-group-text">2</span>
+        <span class="input-group-text">3</span>
+      </div>
+
+      <br />
+
+      <h4 class="h5 text-muted mt-3">Before</h4>
+      <div class="input-group">
+        <button type="button" class="btn btn-secondary" id="buttonBefore">Search</button>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search text here"
+          aria-label="Text input with button"
+          aria-describedby="buttonBefore"
+        />
+      </div>
+      <h4 class="h5 text-muted mt-3">After</h4>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search text here"
+          aria-label="Text input with button"
+          aria-describedby="buttonAfter"
+        />
+        <button type="button" class="btn btn-secondary" id="buttonAfter">Search</button>
+      </div>
+
+      <br />
+
+      <div class="input-group">
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle"
+          id="dropdown"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Topic
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdown">
+          <a href="#" class="dropdown-item">First item</a>
+          <a href="#" class="dropdown-item">Second item</a>
+          <a href="#" class="dropdown-item">Third item</a>
+        </div>
+        <input type="text" class="form-control" placeholder="Search text here" aria-label="Text input with dropdown" />
+      </div>
+
+      <br />
+
+      <div class="input-group">
+        <button type="button" class="btn btn-secondary">Topic</button>
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+          id="dropdownSplit"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Toggle dropdown</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownSplit">
+          <a href="#" class="dropdown-item">First item</a>
+          <a href="#" class="dropdown-item">Second item</a>
+          <a href="#" class="dropdown-item">Third item</a>
+        </div>
+        <input type="text" class="form-control" placeholder="Search text here" aria-label="Text input with dropdown" />
+      </div>
+
       <br /><br /><br />
     </div>
   </body>
