@@ -646,6 +646,43 @@
         <button type="button" class="btn-close" aria-label="Close"></button>
       </div>
 
+      <br /><br />
+      <h2>Collapse</h2>
+      <a
+        href="#hrefCollapse"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        role="button"
+        aria-expanded="false"
+        aria-controls="hrefCollapse"
+        >Link with href</a
+      >
+      <div class="collapse" id="hrefCollapse">
+        <div class="alert alert-success">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis posuere consequat. Nulla fermentum sodales
+          augue, vitae ornare eros ornare quis. Donec lectus est, congue eu risus quis, tempus sagittis nunc.
+        </div>
+      </div>
+
+      <br /><br />
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        data-bs-target="#dataTargetCollapse"
+        aria-expanded="false"
+        aria-controls="dataTargetCollapse"
+      >
+        Button with data-bs-target
+      </button>
+      <div class="collapse" id="dataTargetCollapse">
+        <div class="alert alert-success">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis posuere consequat. Nulla fermentum sodales
+          augue, vitae ornare eros ornare quis. Donec lectus est, congue eu risus quis, tempus sagittis nunc.
+        </div>
+      </div>
+
       <br /><br /><br />
     </div>
   </body>
