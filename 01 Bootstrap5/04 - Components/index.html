@@ -798,6 +798,8 @@
       <br /><br />
 
       <h2>List Group</h2>
+      <br />
+
       <ul class="list-group">
         <li class="list-group-item">List group item one</li>
         <li class="list-group-item">List group item two</li>
@@ -831,13 +833,111 @@
         <li class="list-group-item">Default list group item</li>
         <li class="list-group-item list-group-item-primary">Primary list group item</li>
         <li class="list-group-item list-group-item-secondary">Secondary list group item</li>
-        <li class="list-group-item list-group-item-success">Succcess list group item</li>
+        <li class="list-group-item list-group-item-success">Success list group item</li>
         <li class="list-group-item list-group-item-danger">Danger list group item</li>
         <li class="list-group-item list-group-item-warning">Warning list group item</li>
         <li class="list-group-item list-group-item-info">Info list group item</li>
         <li class="list-group-item list-group-item-light">Light list group item</li>
         <li class="list-group-item list-group-item-dark">Dark list group item</li>
       </ul>
+
+      <br /><br />
+
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          List group item one
+          <span class="badge rounded-pill bg-primary">#</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          List group item two
+          <span class="badge rounded-pill bg-primary">##</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          List group item three
+          <span class="badge rounded-pill bg-primary">###</span>
+        </li>
+      </ul>
+
+      <br /><br />
+
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+          <h4>Active item</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed elementum. Suspendisse
+            maximus convallis ex. Etiam eleifend velit leo.
+          </p>
+          <small>Etiam eleifend velit leo.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <h4>Normal item</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed elementum. Suspendisse
+            maximus convallis ex. Etiam eleifend velit leo.
+          </p>
+          <small>Etiam eleifend velit leo.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action disabled">
+          <h4>Disabled item</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed elementum. Suspendisse
+            maximus convallis ex. Etiam eleifend velit leo.
+          </p>
+          <small>Etiam eleifend velit leo.</small>
+        </a>
+      </div>
+
+      <br /><br />
+
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" role="tablist">
+            <a
+              href="#tab-pane-1"
+              id="tab-1"
+              class="list-group-item list-group-item-action active"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="tab-pane-1"
+              >Tab pane 1</a
+            >
+            <a
+              href="#tab-pane-2"
+              id="tab-2"
+              class="list-group-item list-group-item-action"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="tab-pane-2"
+              >Tab pane 2</a
+            >
+            <a
+              href="#tab-pane-3"
+              id="tab-3"
+              class="list-group-item list-group-item-action"
+              data-bs-toggle="list"
+              role="tab"
+              aria-controls="tab-pane-3"
+              >Tab pane 3</a
+            >
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content">
+            <div id="tab-pane-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="tab-1">
+              Tab pane 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed
+              elementum. Suspendisse maximus convallis ex. Etiam eleifend velit leo.
+            </div>
+            <div id="tab-pane-2" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-2">
+              Tab pane 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed
+              elementum. Suspendisse maximus convallis ex. Etiam eleifend velit leo.
+            </div>
+            <div id="tab-pane-3" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-3">
+              Tab pane 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet pellentesque lorem sed
+              elementum. Suspendisse maximus convallis ex. Etiam eleifend velit leo.
+            </div>
+          </div>
+        </div>
+      </div>
 
       <br /><br /><br />
     </div>
