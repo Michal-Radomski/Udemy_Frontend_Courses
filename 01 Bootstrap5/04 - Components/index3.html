@@ -9,7 +9,8 @@
     <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
     <title>Bootstrap 5 Components</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="script.js" defer></script> -->
   </head>
@@ -535,23 +536,43 @@
         </div>
       </div>
 
+      <br /><br />
+      <h2>Tooltips</h2>
+      <br />
+
+      <a href="#" data-bs-toggle="tooltip" title="Tooltip on top">Tooltip for link</a>
+
+      <br /><br />
+
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-bs-toggle="tooltip"
+        title="<strong>Tooltip</strong> <small>with</small> <span class='badge bg-primary'>custom</span> <em>HTML</em>"
+        data-bs-html="true"
+      >
+        Tooltip with custom HTML
+      </button>
+
       <br /><br /><br />
     </div>
 
-    <!-- //* Popovers does not work. Paste the code of bootsrap bundle here to work1 -->
-    <!-- <script>
+    <script>
       const popoverTriggerElements = document.querySelectorAll('[data-bs-toggle="popover"]');
       // console.log({ popoverTriggerElements });
       for (let i = 0; i < popoverTriggerElements.length; i++) {
         new bootstrap.Popover(popoverTriggerElements[i]);
       }
-    </script> -->
 
-    <!-- <script>
-      var toastElements = document.querySelectorAll(".toast");
-      for (var i = 0; i < toastElements.length; i++) {
+      const toastElements = document.querySelectorAll(".toast");
+      for (let i = 0; i < toastElements.length; i++) {
         new bootstrap.Toast(toastElements[i]).show();
       }
-    </script> -->
+
+      const tooltipTriggerElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+      for (let i = 0; i < tooltipTriggerElements.length; i++) {
+        new bootstrap.Tooltip(tooltipTriggerElements[i]);
+      }
+    </script>
   </body>
 </html>
