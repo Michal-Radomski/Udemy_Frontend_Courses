@@ -571,6 +571,38 @@
         <div class="p-2 text-white bg-dark position-absolute bottom-0 end-0">Bottom right</div>
       </div>
 
+      <br /><br />
+
+      <h4 class="h5 text-muted mt-3">Both directions</h4>
+      <p>Horizontal and vertical centering only works when using top and start values for positioning.</p>
+      <div class="position-relative border m-5 w-50" style="height: 300px">
+        <div class="p-2 text-white bg-dark position-absolute top-0 start-0 translate-middle">Top left</div>
+        <div class="p-2 text-white bg-dark position-absolute top-0 start-50 translate-middle">Top center</div>
+        <div class="p-2 text-white bg-dark position-absolute top-0 start-100 translate-middle">Top right</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 start-0 translate-middle">Middle left</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 start-50 translate-middle">Middle center</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 start-100 translate-middle">Middle right</div>
+        <div class="p-2 text-white bg-dark position-absolute top-100 start-0 translate-middle">Bottom left</div>
+        <div class="p-2 text-white bg-dark position-absolute top-100 start-50 translate-middle">Bottom center</div>
+        <div class="p-2 text-white bg-dark position-absolute top-100 start-100 translate-middle">Bottom right</div>
+      </div>
+      <h4 class="h5 text-muted mt-3">One direction</h4>
+      <p>
+        Horizontal centering only works when using start value for positioning.<br />
+        Vertical centering only works when using top value for positioning.
+      </p>
+      <div class="position-relative border m-5 w-50" style="height: 300px">
+        <div class="p-2 text-white bg-dark position-absolute top-0 start-0">Top left</div>
+        <div class="p-2 text-white bg-dark position-absolute top-0 start-50 translate-middle-x">Top center</div>
+        <div class="p-2 text-white bg-dark position-absolute top-0 end-0">Top right</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 start-0 translate-middle-y">Middle left</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 start-50 translate-middle">Middle center</div>
+        <div class="p-2 text-white bg-dark position-absolute top-50 end-0 translate-middle-y">Middle right</div>
+        <div class="p-2 text-white bg-dark position-absolute bottom-0 start-0">Bottom left</div>
+        <div class="p-2 text-white bg-dark position-absolute bottom-0 start-50 translate-middle-x">Bottom center</div>
+        <div class="p-2 text-white bg-dark position-absolute bottom-0 end-0">Bottom right</div>
+      </div>
+
       <br /><br /><br />
     </div>
   </body>
