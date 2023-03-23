@@ -1,0 +1,38 @@
+Notation
+
+{property}{sides}-{size} for all breakpoints
+{property}{sides}-{breakpoint}-{size} for specific breakpoints and up
+
+Properties:
+m - margin
+p - padding
+
+Sides:
+t - top
+e - right (end)
+b - bottom
+s - left (start)
+x - left and right
+y - top and bottom
+[blank] - all four sides
+
+Breakpoints:
+sm - small
+md - medium
+lg - large
+xl - extra large
+xxl - extra extra large
+
+Sizes:
+0 - 0
+1 - 0.25rem
+2 - 0.5rem
+3 - 1rem
+4 - 1.5rem
+5 - 3rem
+auto - auto (only for margins)
+n1 - -0.25rem (only for margins and disabled by default)
+n2 - -0.5rem (only for margins and disabled by default)
+n3 - -1rem (only for margins and disabled by default)
+n4 - -1.5rem (only for margins and disabled by default)
+n5 - -3rem (only for margins and disabled by default)
