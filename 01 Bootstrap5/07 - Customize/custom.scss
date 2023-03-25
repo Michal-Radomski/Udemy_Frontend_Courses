@@ -127,3 +127,8 @@ $container-max-widths: (
 // scss-docs-end container-max-widths
 
 $spinner-animation-speed: 0.75s !default;
+
+$table-bg-scale: -80% !default;
+
+$table-color: $body-color !default;
+$table-bg: transparent !default;
