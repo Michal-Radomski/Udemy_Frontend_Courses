@@ -139,4 +139,5 @@ $link-decoration: underline !default;
 $modal-sm: 300px !default;
 $modal-md: 500px !default;
 $modal-lg: 800px !default;
-$modal-xl: 1140px !default;
+// $modal-xl: 1140px !default;
+$modal-xl: calc(100% - 1rem);
