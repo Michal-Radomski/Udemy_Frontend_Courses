@@ -19,6 +19,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
 
+    <!-- Smooth-scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- highlight.js -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
     <script src="index.js" defer></script>
     <link rel="icon" type="image/png" href="favicon.png" />
   </head>
@@ -170,27 +177,27 @@
               </p>
 
               <pre>
-                <code class="html">&lt;div class="row flex-lg-row-reverse mt-4 mb-5"&gt;
-                  &lt;div class="col-12 col-lg-6 mb-3 mb-lg-0"&gt;
-                    &lt;form&gt;
-                      &lt;div class="input-group input-group-lg"&gt;
-                        &lt;input type="search" name="search" class="form-control" id="search" placeholder="How can we help you?" aria-label="Search for..."&gt;
-                        &lt;span class="input-group-append"&gt;
-                          &lt;button type="submit" class="btn btn-primary"&gt;Search&lt;/button&gt;
-                        &lt;/span&gt;
-                      &lt;/div&gt;
-                    &lt;/form&gt;
-                  &lt;/div&gt;
-                  &lt;div class="col-12 col-lg-6"&gt;
-                    &lt;nav aria-label="breadcrumb" role="navigation"&gt;
-                      &lt;ol class="breadcrumb"&gt;
-                        &lt;li class="breadcrumb-item"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
-                        &lt;li class="breadcrumb-item"&gt;&lt;a href="category.html"&gt;Category&lt;/a&gt;&lt;/li&gt;
-                        &lt;li class="breadcrumb-item active" aria-current="page"&gt;Article Heading&lt;/li&gt;
-                      &lt;/ol&gt;
-                    &lt;/nav&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;</code>
+<code class="html">&lt;div class="row flex-lg-row-reverse mt-4 mb-5"&gt;
+  &lt;div class="col-12 col-lg-6 mb-3 mb-lg-0"&gt;
+    &lt;form&gt;
+      &lt;div class="input-group input-group-lg"&gt;
+        &lt;input type="search" name="search" class="form-control" id="search" placeholder="How can we help you?" aria-label="Search for..."&gt;
+        &lt;span class="input-group-append"&gt;
+          &lt;button type="submit" class="btn btn-primary"&gt;Search&lt;/button&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+  &lt;div class="col-12 col-lg-6"&gt;
+    &lt;nav aria-label="breadcrumb" role="navigation"&gt;
+      &lt;ol class="breadcrumb"&gt;
+        &lt;li class="breadcrumb-item"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="breadcrumb-item"&gt;&lt;a href="category.html"&gt;Category&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="breadcrumb-item active" aria-current="page"&gt;Article Heading&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code>
 							</pre>
 
               <h3 class="mt-5 fst-italic" id="section-5">Article Subheading</h3>
@@ -347,5 +354,10 @@
         </ul>
       </div>
     </footer>
+
+    <script>
+      const scroll = new SmoothScroll('a[href*="#section"]');
+      hljs.highlightBlock(document.querySelector("pre code"));
+    </script>
   </body>
 </html>
