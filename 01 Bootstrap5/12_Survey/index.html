@@ -878,6 +878,16 @@
           behavior: "smooth",
         });
       }
+
+      const goToStep2Trigger = document.querySelector("#go-to-step-2");
+      goToStep2Trigger.addEventListener("click", function () {
+        scrollToTop();
+        setTimeout(function () {
+          const step2TabElement = document.querySelector("#step-2-tab");
+          const step2Tab = new bootstrap.Tab(step2TabElement);
+          step2Tab.show();
+        }, 1000);
+      });
     </script>
   </body>
 </html>
