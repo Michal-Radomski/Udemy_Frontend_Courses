@@ -508,5 +508,12 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const tooltipTriggerElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+      for (let i = 0; i < tooltipTriggerElements.length; i++) {
+        new bootstrap.Tooltip(tooltipTriggerElements[i]);
+      }
+    </script>
   </body>
 </html>
