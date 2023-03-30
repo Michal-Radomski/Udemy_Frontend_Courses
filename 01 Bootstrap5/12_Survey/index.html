@@ -898,6 +898,15 @@
           step3Tab.show();
         }, 1000);
       });
+
+      const submitButton = document.querySelector("#submitButton");
+      submitButton.addEventListener("click", function () {
+        submitButton.disabled = true;
+        submitButton.querySelector(".spinner-border").classList.remove("d-none");
+        setTimeout(function () {
+          window.location.href = "results.html";
+        }, 2000);
+      });
     </script>
   </body>
 </html>
