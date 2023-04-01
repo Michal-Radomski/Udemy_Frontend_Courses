@@ -23,5 +23,38 @@
     <link rel="icon" type="image/png" href="favicon.png" />
   </head>
 
-  <body></body>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container">
+        <h1><a href="#0" class="navbar-brand">Forum</a></h1>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSearch"
+          aria-controls="#navbarSearch"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2 mt-sm-0" id="navbarSearch">
+          <from class="ms-auto">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search" />
+              <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </from>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-3">
+      <nav aria-label="Forum navigation">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Board Index</li>
+        </ol>
+      </nav>
+    </div>
+  </body>
 </html>
