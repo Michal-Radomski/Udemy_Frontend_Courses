@@ -1,4 +1,4 @@
-$color-primary: red;
+$primary-color: red;
 $text-color-dark: dimgray;
 
 @mixin clearfix {
@@ -16,16 +16,15 @@ $text-color-dark: dimgray;
 }
 
 @function divide($a, $b) {
-  @return $a / $b;
+  @return calc($a / $b);
 }
 
 nav {
   margin: 30px;
   background-color: $primary-color;
   @include clearfix;
-  margin: divide(60/2) * 1px; //30px
+  margin: divide(60, 2) * 1px;
 }
-
 a:link {
   @include style-link-text($text-color-dark);
 }
@@ -37,10 +36,10 @@ a:link {
 
 button {
   @extend %button-placeholder;
-  background-color: lighten($color-primary, 15%);
-  background-color: darken($color-primary, 10%);
+  background-color: lighten($primary-color, 15%);
+  background-color: darken($primary-color, 10%);
 }
 
 p {
-  color: mix($color-primary, $text-color-dark, $weight: 50%);
+  color: mix($primary-color, $text-color-dark, $weight: 50%);
 }

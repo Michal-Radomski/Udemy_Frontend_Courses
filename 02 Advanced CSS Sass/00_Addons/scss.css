@@ -1,0 +1,32 @@
+nav {
+  margin: 30px;
+  background-color: red;
+  margin: 30px;
+}
+nav::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: dimgray;
+}
+
+button {
+  padding: 10px;
+  display: inline-block;
+}
+
+button {
+  background-color: #ff4d4d;
+  background-color: #cc0000;
+}
+
+p {
+  color: #b43535;
+}
+
+/*# sourceMappingURL=scss.css.map */
