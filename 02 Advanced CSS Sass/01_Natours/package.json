@@ -1,0 +1,12 @@
+{
+  "name": "01_natours",
+  "version": "1.0.0",
+  "description": "Natours project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass/main.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "MichRad",
+  "license": "ISC"
+}
