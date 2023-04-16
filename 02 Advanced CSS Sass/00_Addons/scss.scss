@@ -1,0 +1,46 @@
+$color-primary: red;
+$text-color-dark: dimgray;
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin style-link-text($col) {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $col;
+}
+
+@function divide($a, $b) {
+  @return $a / $b;
+}
+
+nav {
+  margin: 30px;
+  background-color: $primary-color;
+  @include clearfix;
+  margin: divide(60/2) * 1px; //30px
+}
+
+a:link {
+  @include style-link-text($text-color-dark);
+}
+
+%button-placeholder {
+  padding: 10px;
+  display: inline-block;
+}
+
+button {
+  @extend %button-placeholder;
+  background-color: lighten($color-primary, 15%);
+  background-color: darken($color-primary, 10%);
+}
+
+p {
+  color: mix($color-primary, $text-color-dark, $weight: 50%);
+}
