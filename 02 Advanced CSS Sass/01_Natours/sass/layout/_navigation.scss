@@ -83,4 +83,14 @@
       transform: translateX(1rem);
     }
   }
+
+  // Functionality
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
+  }
+
+  &__checkbox:checked ~ &__nav {
+    opacity: 1;
+    width: 100%;
+  }
 }
