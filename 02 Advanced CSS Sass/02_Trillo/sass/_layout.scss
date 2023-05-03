@@ -20,9 +20,11 @@
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-  flex: 0 0 18%; // Alway 18%
+  flex: 0 0 18%; //* Alway keep 18%
 }
 
 .hotel-view {
   background-color: #fff;
+
+  flex: 1; //* 1 1 0
 }
