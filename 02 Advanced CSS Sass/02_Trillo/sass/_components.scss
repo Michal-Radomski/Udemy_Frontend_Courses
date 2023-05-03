@@ -181,3 +181,32 @@
   text-align: center;
   padding: 2.5rem;
 }
+
+// Gallery
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+// Hotel overview
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--line);
+
+  &__stars {
+    margin-right: auto;
+    display: flex;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+}
