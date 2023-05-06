@@ -26,7 +26,7 @@ body {
   //* Implicit grid
   grid-auto-rows: 80px;
   // grid-auto-flow: column dense;
-  // grid-auto-flow: row dense;
+  grid-auto-flow: row dense;
   // grid-auto-columns: 0.5fr;
 
   //* Align grid items to grid areas
@@ -62,7 +62,7 @@ body {
 
     &--7 {
       background-color: palevioletred;
-      grid-column: 1 / -1;
+      // grid-column: 1 / -1;
     }
   }
 }
