@@ -19,8 +19,9 @@ body {
   margin: 30px auto;
   background-color: #ddd;
   display: grid;
-  grid-template-rows: repeat(2, 150px);
-  grid-template-columns: max-content 1fr 1fr min-content;
+  width: 90%;
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
 }
 .container .item {
   padding: 10px;

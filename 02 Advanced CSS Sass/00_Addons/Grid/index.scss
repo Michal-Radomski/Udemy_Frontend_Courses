@@ -19,14 +19,14 @@ body {
 
   display: grid;
   //* Using min-content and max-content
-  grid-template-rows: repeat(2, 150px);
-  grid-template-columns: max-content 1fr 1fr min-content;
+  // grid-template-rows: repeat(2, 150px);
+  // grid-template-columns: max-content 1fr 1fr min-content;
   // grid-template-rows: repeat(2, min-content);
 
   //* Using minmax function
-  //width: 90%;
-  //grid-template-rows: repeat(2, minmax(150px, min-content));
-  //grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+  width: 90%;
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
 
   //* Using auto-fill and auto-fit
   // grid-template-rows: repeat(2, minmax(150px, min-content));
