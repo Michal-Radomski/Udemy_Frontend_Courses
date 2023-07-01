@@ -119,6 +119,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  color: maroon;
 }
 
 li:nth-child(even) {
