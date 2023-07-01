@@ -134,7 +134,8 @@ article p:first-child {
 /* Styling links */
 a:link {
   color: #1098ad;
-  text-decoration: none;
+  /* text-decoration: none; */
+  text-decoration: overline;
 }
 
 a:visited {
