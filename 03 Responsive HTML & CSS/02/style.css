@@ -135,7 +135,8 @@ article p:first-child {
 a:link {
   color: #1098ad;
   /* text-decoration: none; */
-  text-decoration: overline;
+  /* text-decoration: overline; */
+  text-decoration: line-through;
 }
 
 a:visited {
@@ -162,6 +163,7 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+  color: maroon;
 }
 
 nav a:link:last-child {
