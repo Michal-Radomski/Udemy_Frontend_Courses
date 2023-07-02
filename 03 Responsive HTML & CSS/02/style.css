@@ -185,10 +185,12 @@ button {
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
+  background-color: yellowgreen;
+  font-size: 80px;
 }
 
 h3 + p::first-line {
-  color: red;
+  color: orange;
 }
 
 h2 {
@@ -199,6 +201,17 @@ h2 {
 h2::before {
   content: "TOP";
   background-color: #ffe70e;
+  /* background-color: crimson; */
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+h2::after {
+  content: "TOP2";
+  background-color: crimson;
   color: #444;
   font-size: 16px;
   font-weight: bold;
