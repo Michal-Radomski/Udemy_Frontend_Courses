@@ -266,7 +266,7 @@ nav p {
 } */
 
 /* FLOATS */
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -283,15 +283,15 @@ h1 {
 
 nav {
   float: right;
-  /* background-color: red; */
-}
+  background-color: red;
+} */
 
 /* //* Bad way of clear */
 /* .clear {
   clear: both;
 } */
 
-.clearfix::after {
+/* .clearfix::after {
   clear: both;
   content: "";
   display: block;
@@ -300,21 +300,21 @@ nav {
 article {
   width: 825px;
   float: left;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
 aside {
   width: 300px;
   float: right;
-  /* background-color: yellowgreen; */
+  background-color: yellowgreen;
 }
 
 footer {
   clear: both;
-}
+} */
 
 /* FLEXBOX */
-/* .main-header {
+.main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -374,7 +374,6 @@ aside {
 
   flex: 0 0 300px;
 }
-*/
 
 /* CSS GRID LAYOUT */
 .container {
