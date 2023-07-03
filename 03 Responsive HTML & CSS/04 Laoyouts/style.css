@@ -314,7 +314,7 @@ footer {
 } */
 
 /* FLEXBOX */
-.main-header {
+/* .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -351,33 +351,31 @@ footer {
   font-size: 14px;
   font-weight: normal;
   font-style: italic;
-}
+} */
 
 /* FLEXBOX LAYOUT */
-.row {
+/* flex: 1= flex: 1, 1, auto; */
+
+/* .row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
   margin-bottom: 60px;
-  /* background-color: yellow; */
 }
 
 article {
-  /* = flex: 1, 1, auto; */
-  flex: 1;
   margin-bottom: 0;
 }
 
 aside {
-  /* DEFAULTS: */
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   flex: 0 0 300px;
-}
+} */
 
 /* CSS GRID LAYOUT */
-/* .container {
+.container {
   display: grid;
   grid-template-columns: 1fr 300px;
   column-gap: 75px;
@@ -392,4 +390,4 @@ aside {
 
 footer {
   grid-column: 1 / -1;
-} */
+}
