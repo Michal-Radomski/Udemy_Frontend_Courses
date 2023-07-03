@@ -359,9 +359,11 @@ footer {
   align-items: flex-start;
   gap: 75px;
   margin-bottom: 60px;
+  /* background-color: yellow; */
 }
 
 article {
+  /* = flex: 1, 1, auto; */
   flex: 1;
   margin-bottom: 0;
 }
@@ -371,7 +373,6 @@ aside {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-
   flex: 0 0 300px;
 }
 
