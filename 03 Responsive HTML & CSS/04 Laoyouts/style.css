@@ -376,7 +376,7 @@ aside {
 }
 
 /* CSS GRID LAYOUT */
-.container {
+/* .container {
   display: grid;
   grid-template-columns: 1fr 300px;
   column-gap: 75px;
@@ -385,10 +385,10 @@ aside {
 }
 
 .main-header {
-  /* grid-column: 1 / span 2; */
+  grid-column: 1 / span 2;
   grid-column: 1 / -1;
 }
 
 footer {
   grid-column: 1 / -1;
-}
+} */
