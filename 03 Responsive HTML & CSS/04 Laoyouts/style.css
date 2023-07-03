@@ -265,7 +265,6 @@ nav p {
 } */
 
 /* FLOATS */
-/*
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -308,10 +307,9 @@ aside {
 footer {
   clear: both;
 }
-*/
 
 /* FLEXBOX */
-.main-header {
+/* .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -351,7 +349,7 @@ footer {
 }
 
 /* FLEXBOX LAYOUT */
-/* .row {
+.row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -364,14 +362,14 @@ article {
 }
 
 aside {
-  
-  DEFAULTS:
+  /* DEFAULTS: */
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 
   flex: 0 0 300px;
-} */
+}
+*/
 
 /* CSS GRID LAYOUT */
 .container {
