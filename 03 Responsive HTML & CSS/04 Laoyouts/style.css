@@ -285,9 +285,9 @@ nav {
   /* background-color: red; */
 }
 
-.clear {
+/* .clear {
   clear: both;
-}
+} */
 
 .clearfix::after {
   clear: both;
