@@ -285,6 +285,7 @@ nav {
   /* background-color: red; */
 }
 
+/* //* Bad way of clear */
 /* .clear {
   clear: both;
 } */
@@ -298,11 +299,13 @@ nav {
 article {
   width: 825px;
   float: left;
+  /* background-color: yellow; */
 }
 
 aside {
   width: 300px;
   float: right;
+  /* background-color: yellowgreen; */
 }
 
 footer {
