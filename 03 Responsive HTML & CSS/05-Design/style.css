@@ -7,8 +7,8 @@ FONT SIZE SYSTEM (px)
 */
 
 /* 
-MAIN COLOR: #087f5b
-GREY COLOR: #343a40
+MAIN COLOR: var(--main-color)
+GREY COLOR: var(--grey-color)
 */
 
 * {
@@ -17,13 +17,18 @@ GREY COLOR: #343a40
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: #087f5b;
+  --grey-color: #343a40;
+}
+
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
-  color: #343a40;
-  border-bottom: 8px solid #087f5b;
+  color: var(--grey-color);
+  border-bottom: 8px solid var(--main-color);
 }
 
 .container {
@@ -51,7 +56,7 @@ h2 {
 
 .btn:link,
 .btn:visited {
-  background-color: #087f5b;
+  background-color: var(--main-color);
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -118,7 +123,7 @@ img {
 
 /* FEATURES */
 .features-icon {
-  stroke: #087f5b;
+  stroke: var(--main-color);
   width: 32px;
   height: 32px;
   margin-bottom: 24px;
@@ -136,7 +141,7 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
-  background-color: #087f5b;
+  background-color: var(--main-color);
   color: #fff;
   padding: 24px;
   border-radius: 12px;
@@ -202,7 +207,7 @@ h3 {
 }
 
 .chair-icon {
-  stroke: #087f5b;
+  stroke: var(--main-color);
   width: 24px;
   height: 24px;
 }
