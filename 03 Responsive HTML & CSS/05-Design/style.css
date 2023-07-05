@@ -108,8 +108,7 @@ h1 {
   line-height: 1.1;
   letter-spacing: -1px;
   /* 44 / 52 / 62 */
-
-  /* text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .header-text {
@@ -183,8 +182,10 @@ img {
   border-bottom-right-radius: 0;
 }
 
+/* //? Shadow rbga -> max a=0.1 */
 .chair-box {
   padding: 32px;
+  /* box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.9); */
 }
 
 h3 {
