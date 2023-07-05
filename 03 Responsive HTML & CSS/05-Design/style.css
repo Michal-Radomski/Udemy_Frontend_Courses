@@ -20,6 +20,7 @@ GREY COLOR: var(--grey-color)
 :root {
   --main-color: #087f5b;
   --grey-color: #343a40;
+  --bgc: #099268;
 }
 
 /* ------------------------ */
@@ -68,7 +69,7 @@ h2 {
 
 .btn:hover,
 .btn:active {
-  background-color: #099268;
+  background-color: var(--bgc);
 }
 
 .btn--big {
