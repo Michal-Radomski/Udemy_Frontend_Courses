@@ -187,10 +187,10 @@
 
 .step-img-box {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 2px solid red; */
 }
 
 .step-img-box::before,
@@ -207,12 +207,11 @@
 .step-img-box::before {
   width: 60%;
   /* height: 60%; */
-
   /* 60% of parent's width */
   padding-bottom: 60%;
-
   background-color: #fdf2e9;
   z-index: -2;
+  /* border: 2px solid red; */
 }
 
 .step-img-box::after {
