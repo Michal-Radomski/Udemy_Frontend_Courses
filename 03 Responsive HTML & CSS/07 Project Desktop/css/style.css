@@ -188,6 +188,12 @@
   justify-content: space-around;
 }
 
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
 /**************************/
 /* HOW IT WORKS SECTION */
 /**************************/
