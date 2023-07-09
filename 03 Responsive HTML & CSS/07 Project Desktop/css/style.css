@@ -516,6 +516,8 @@
   font-size: 1.4rem;
   line-height: 1.6;
   color: #767676;
+  /* margin: auto; */
+  /* //+ Consumes all space at top */
   margin-top: auto;
 }
 
