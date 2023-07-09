@@ -33,4 +33,9 @@
 
 /* //+ 1200/16 = 75 */
 @media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    /* //+ 1rem=9px */
+    font-size: 56.25%;
+  }
 }
