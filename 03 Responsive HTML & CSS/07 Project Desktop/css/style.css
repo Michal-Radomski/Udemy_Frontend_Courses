@@ -323,3 +323,14 @@
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
