@@ -441,6 +441,8 @@
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+  /* color: red;
+  border: 1px solid currentColor; */
 }
 
 .feature-icon {
