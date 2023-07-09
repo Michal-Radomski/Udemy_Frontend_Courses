@@ -303,6 +303,7 @@
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
+  /* grid-template-columns: 55% 45%; */
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
@@ -353,5 +354,6 @@
 }
 
 .gallery-item img:hover {
+  /* transform: rotate(45deg); */
   transform: scale(1.1);
 }
