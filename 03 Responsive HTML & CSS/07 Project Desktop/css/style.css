@@ -477,3 +477,12 @@
   /* top / horizontal / left */
   padding: 4.8rem 0 12.8rem;
 }
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
