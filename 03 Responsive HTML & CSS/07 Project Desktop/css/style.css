@@ -500,3 +500,14 @@
   display: block;
   margin-bottom: 3.2rem;
 }
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
