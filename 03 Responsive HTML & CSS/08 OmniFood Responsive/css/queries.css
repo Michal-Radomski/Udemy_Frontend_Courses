@@ -188,3 +188,10 @@
     display: none;
   }
 }
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+}
