@@ -75,7 +75,14 @@
 
 @media (max-width: 59em) {
   html {
+    /* //+ Target: 8px */
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
   }
 }
