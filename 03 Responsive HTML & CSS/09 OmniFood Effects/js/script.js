@@ -1,5 +1,3 @@
-// console.log("Hello world!");
-
 // Set current year
 const yearEl = document.querySelector(".year");
 // console.log({ yearEl });
@@ -68,6 +66,7 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+console.log({ obs });
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -89,5 +88,3 @@ function checkFlexGap() {
   }
 }
 checkFlexGap();
-
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
