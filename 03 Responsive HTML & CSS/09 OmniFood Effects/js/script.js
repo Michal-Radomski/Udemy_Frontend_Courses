@@ -45,28 +45,29 @@ allLinks.forEach(function (link) {
 // Sticky navigation
 const sectionHeroEl = document.querySelector(".section-hero");
 
-const obs = new IntersectionObserver(
+const observer = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log({ ent });
+    // console.log({ ent });
 
+    //* => the same as: !ent.isIntersecting
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
     }
-
+    //* => the same as: ent.isIntersecting
     if (ent.isIntersecting === true) {
       document.body.classList.remove("sticky");
     }
   },
   {
-    // In the viewport
+    //* null means the viewport!
     root: null,
     threshold: 0,
     rootMargin: "-80px",
   }
 );
-obs.observe(sectionHeroEl);
-console.log({ obs });
+observer.observe(sectionHeroEl);
+// console.log({ observer });
 
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -80,7 +81,7 @@ function checkFlexGap() {
 
   document.body.appendChild(flex);
   const isSupported = flex.scrollHeight === 1;
-  console.log({ isSupported });
+  // console.log({ isSupported });
   flex.parentNode.removeChild(flex);
 
   if (!isSupported) {
