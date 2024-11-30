@@ -1,0 +1,78 @@
+HTML (Hypertext Markup Language) and XHTML (Extensible Hypertext Markup Language) are both markup languages used to create web pages, but they have key differences in syntax, structure, and rules. Below is a comparison of the two along with examples.
+
+### **Differences Between HTML and XHTML**
+
+1. **Syntax Rules**:
+   - **HTML**: More lenient with syntax; browsers can often render pages even if they contain errors.
+   - **XHTML**: Stricter syntax rules; documents must be well-formed and adhere to XML standards.
+
+2. **Tag Closure**:
+   - **HTML**: Some tags can be left unclosed (e.g., `<br>`).
+   - **XHTML**: All tags must be properly closed (e.g., `<br />`).
+
+3. **Case Sensitivity**:
+   - **HTML**: Not case-sensitive; tags can be written in any combination of uppercase or lowercase.
+   - **XHTML**: Case-sensitive; all tags and attributes must be in lowercase.
+
+4. **Document Type Declaration (DTD)**:
+   - **HTML**: Various DTDs can be used, including HTML5.
+   - **XHTML**: Requires a specific DTD declaration at the beginning of the document.
+
+5. **Attribute Quoting**:
+   - **HTML**: Attribute values may not always need to be quoted.
+   - **XHTML**: All attribute values must be enclosed in quotes.
+
+6. **File Extensions**:
+   - **HTML**: Typically uses `.html` or `.htm`.
+   - **XHTML**: Uses `.xhtml`, `.xht`, or `.xml`.
+
+### **Examples**
+
+#### Example of HTML
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is my first paragraph.</p>
+    <br>
+    <img src="image.jpg" alt="An image">
+</body>
+</html>
+```
+
+#### Example of XHTML
+
+```xml
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My First XHTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is my first paragraph.</p>
+    <br />
+    <img src="image.jpg" alt="An image" />
+</body>
+</html>
+```
+
+### Summary
+
+In summary, while both HTML and XHTML serve the purpose of creating web pages, XHTML enforces stricter rules that enhance compatibility with XML technologies. This makes XHTML more suitable for applications requiring precise data handling, while HTML remains more flexible for general web development.
+
+Citations:
+[1] https://www.w3schools.com/html/html_xhtml.asp
+[2] https://www.javatpoint.com/html-vs-xhtml
+[3] https://www.scaler.com/topics/difference-between-html-and-xhtml/
+[4] https://www.geeksforgeeks.org/difference-between-xhtml-and-html5/
+[5] https://testbook.com/key-differences/difference-between-html-and-xhtml
+[6] https://blog.hubspot.com/website/what-is-xml-file?hubs_content=blog.hubspot.com%2Fwebsite%2Fwordpress-add-expires-headers&hubs_content-cta=XML
+[7] https://www.geeksforgeeks.org/xhtml-introduction/
+[8] https://www.tutorialspoint.com/difference-between-html-and-xhtml
