@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTMX Example</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+  </head>
+  <body>
+    <h1>HTMX Dynamic Content Example</h1>
+
+    <!-- Button to trigger content update -->
+    <button hx-get="/fetch-data" hx-target="#content" hx-swap="innerHTML">Load Content</button>
+
+    <!-- Placeholder for dynamic content -->
+    <div id="content">Data will load here when you click the button.</div>
+  </body>
+</html>
